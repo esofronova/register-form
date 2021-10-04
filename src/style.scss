@@ -1,0 +1,19 @@
+.register-form {
+  .valid {
+     color: green;
+
+     &:before {
+        margin-right: 10px;
+        content: "✔";
+     }
+  }
+
+  .invalid {
+     color: red;
+
+     &:before {
+        margin-right: 10px;
+        content: "✖";
+     }
+  }
+}
